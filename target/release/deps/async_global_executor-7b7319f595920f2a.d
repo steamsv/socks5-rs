@@ -1,0 +1,12 @@
+/root/socks5-rs/target/release/deps/async_global_executor-7b7319f595920f2a.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/config.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/executor.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/init.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/reactor.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/threading.rs
+
+/root/socks5-rs/target/release/deps/libasync_global_executor-7b7319f595920f2a.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/config.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/executor.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/init.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/reactor.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/threading.rs
+
+/root/socks5-rs/target/release/deps/async_global_executor-7b7319f595920f2a.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/config.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/executor.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/init.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/reactor.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/threading.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/config.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/executor.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/init.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/reactor.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/async-global-executor-2.2.0/src/threading.rs:

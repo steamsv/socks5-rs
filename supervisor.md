@@ -3,6 +3,8 @@
 ```
 dnf install epel-release -y
 dnf install supervisor -y
+systemctl enable supervisord
+systemctl start supervisord
 ```
 
 ```
@@ -32,4 +34,19 @@ redirect_stderr = false
 stdout_logfile_maxbytes = 10MB
 #stdout日志文件备份数
 stdout_logfile_backups = 20
+```
+
+```
+supervisorctl status        //查看所有进程的状态
+ 
+supervisord                 //启动supervisord
+supervisorctl start all       //启动supervisord管理的所有进程
+supervisorctl stop all        //停止supervisord管理的所有进程
+supervisorctl restart all    // 重启所有进程
+supervisorctl stop zedis       //停止zedis, name为[program:xx]中的xx
+supervisorctl start zedis      //启动zedis
+supervisorctl restart zedis      //重启zedis
+supervisorctl update        //配置文件修改后使用该命令加载新的配置
+supervisorctl reload        //重新加载配置文件并启动
+supervisorctl shutdown     //停止supervisord
 ```

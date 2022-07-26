@@ -1,4 +1,11 @@
-````
+# install
+
+```
+dnf install epel-release -y
+dnf install supervisor -y
+```
+
+```
 #项目名
 [program:a]
 #脚本目录

@@ -1,3 +1,4 @@
+````
 #项目名
 [program:a]
 #脚本目录
@@ -24,3 +25,4 @@ redirect_stderr = false
 stdout_logfile_maxbytes = 10MB
 #stdout日志文件备份数
 stdout_logfile_backups = 20
+```

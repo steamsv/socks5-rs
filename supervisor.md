@@ -26,10 +26,9 @@ startsecs=1
 user = a
 
 #日志输出 
-stderr_logfile=/tmp/a_stderr.log 
-stdout_logfile=/tmp/b_stdout.log 
+stdout_logfile=/root/s5.log
 #把stderr重定向到stdout，默认 false
-redirect_stderr = false
+redirect_stderr = true
 #stdout日志文件大小，默认 50MB
 stdout_logfile_maxbytes = 10MB
 #stdout日志文件备份数

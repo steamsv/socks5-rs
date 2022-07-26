@@ -1,0 +1,16 @@
+[Unit]
+Description=socks5-rs
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
+
+[Service]
+Type=simple
+User=root
+Restart=always
+RestartSec=1
+DynamicUser=true
+LimitNOFILE=4000000
+ExecStart=/usr/bin/socks5-rs -b 0.0.0.0 -p 8080
+
+[Install]
+WantedBy=multi-user.target

@@ -17,7 +17,7 @@ iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 10000:50000 -j ACCE
 iptables -I INPUT -m state --state NEW -m udp -p udp --dport 10000:50000 -j ACCEPT
 ```
 ```
-iptables -t nat -A POSTROUTING -m owner --uid-owner a1 -j SNAT --to-source 103.162.98.55
+iptables -t nat -A POSTROUTING -m owner --uid-owner a1 -j SNAT --to-source 
 ```
 ```
 #项目名

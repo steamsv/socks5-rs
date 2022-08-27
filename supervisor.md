@@ -8,6 +8,18 @@ systemctl start supervisord
 ```
 
 ```
+yum install iptables-services -y  #安装iptables
+systemctl start iptables  #启动
+systemctl enable iptables  #开机启动
+```
+```
+iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 10000:50000 -j ACCEPT
+iptables -I INPUT -m state --state NEW -m udp -p udp --dport 10000:50000 -j ACCEPT
+```
+```
+iptables -t nat -A POSTROUTING -m owner --uid-owner a1 -j SNAT --to-source 103.162.98.55
+```
+```
 #项目名
 [program:a]
 #脚本目录

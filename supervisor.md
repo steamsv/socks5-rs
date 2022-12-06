@@ -6,6 +6,12 @@ dnf install supervisor -y
 systemctl enable supervisord
 systemctl start supervisord
 ```
+```
+yum install epel-release -y
+yum install supervisor -y
+systemctl enable supervisord
+systemctl start supervisord
+```
 
 ```
 yum install iptables-services -y  #安装iptables

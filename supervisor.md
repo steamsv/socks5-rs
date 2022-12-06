@@ -16,6 +16,15 @@ systemctl enable iptables  #开机启动
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 10000:50000 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m udp -p udp --dport 10000:50000 -j ACCEPT
 ```
+
+```
+useradd -r a1
+useradd -r a2
+useradd -r a3
+useradd -r a4
+useradd -r a5
+```
+
 ```
 iptables -t nat -A POSTROUTING -m owner --uid-owner a1 -j SNAT --to-source 
 ```
